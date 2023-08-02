@@ -40,4 +40,4 @@ def main(page:Page):
             page.add(my_icon)
 import flet as flet
 
-flet.app(target=main)
+flet.app(target=main,view='web_browser')
